@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/E_Commerce_Template/static/css/main.c57efad2.css",
+    "main.js": "/E_Commerce_Template/static/js/main.601caefe.js",
+    "index.html": "/E_Commerce_Template/index.html",
+    "main.c57efad2.css.map": "/E_Commerce_Template/static/css/main.c57efad2.css.map",
+    "main.601caefe.js.map": "/E_Commerce_Template/static/js/main.601caefe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c57efad2.css",
+    "static/js/main.601caefe.js"
+  ]
+}
