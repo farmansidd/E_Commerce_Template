@@ -8,7 +8,7 @@ const Cart = () => {
 
   return (
     <div className="max-w-4xl mx-auto mt-10 p-8 bg-white rounded-lg shadow-xl">
-      <h2 className="text-3xl font-bold mb-6 text-gray-800 border-b pb-4 my-3">Shopping Cart</h2>
+      <h2 className="text-3xl font-bold mb-6 text-gray-800 border-b pb-4 mt-5">Shopping Cart</h2>
 
       {cartItems.length === 0 ? (
         <div className="text-center py-12">
