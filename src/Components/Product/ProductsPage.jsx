@@ -32,7 +32,7 @@ const ProductsPage = () => {
       price: 89.99,
       category: "athletic",
       rating: 4.7,
-      image: "/images/shoes/shoe1.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/heel1.jpg",
       colors: ["#ffffff", "#000000", "#ff0000"],
       sizes: [7, 8, 9, 10, 11, 12]
     },
@@ -42,7 +42,7 @@ const ProductsPage = () => {
       price: 49.99,
       category: "casual",
       rating: 4.3,
-      image: "/images/shoes/shoe2.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/flat1.jpg",
       colors: ["#1e90ff", "#f5f5dc", "#ffa500"],
       sizes: [6, 7, 8, 9, 10]
     },
@@ -52,7 +52,7 @@ const ProductsPage = () => {
       price: 129.99,
       category: "outdoor",
       rating: 4.8,
-      image: "/Shose3.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/boot1.jpg",
       colors: ["#8b4513", "#556b2f"],
       sizes: [8, 9, 10, 11, 12]
     },
@@ -62,7 +62,7 @@ const ProductsPage = () => {
       price: 119.99,
       category: "casual",
       rating: 4.4,
-      image: "/Shose4.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/sneaker1.jpg",
       colors: ["#a0522d", "#000000", "#808080"],
       sizes: [7, 8, 9, 10, 11]
     },
@@ -72,7 +72,7 @@ const ProductsPage = () => {
       price: 149.99,
       category: "athletic",
       rating: 4.9,
-      image: "/Shose5.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/sandal1.jpg",
       colors: ["#ff0000", "#000000", "#0000ff"],
       sizes: [8, 9, 10, 11, 12, 13]
     },
@@ -82,7 +82,7 @@ const ProductsPage = () => {
       price: 199.99,
       category: "formal",
       rating: 4.5,
-      image: "/Shose6.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/heel2.jpg",
       colors: ["#2c3e50", "#34495e"],
       sizes: [8, 9, 10]
     },
@@ -92,7 +92,7 @@ const ProductsPage = () => {
       price: 109.99,
       category: "athletic",
       rating: 4.6,
-      image: "/Shose7.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/featured1.jpg",
       colors: ["#ffffff", "#adff2f", "#00ffff"],
       sizes: [6, 7, 8, 9, 10, 11]
     },
@@ -102,7 +102,7 @@ const ProductsPage = () => {
       price: 79.99,
       category: "outdoor",
       rating: 4.2,
-      image: "/Shose8.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/featured2.jpg",
       colors: ["#000000", "#8a2be2", "#228b22"],
       sizes: [6, 7, 8, 9, 10]
     },
@@ -112,7 +112,7 @@ const ProductsPage = () => {
       price: 229.99,
       category: "formal",
       rating: 4.8,
-      image: "/Shose9.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/Shose 9.jpg",
       colors: ["#800000", "#000000"],
       sizes: [8, 9, 10, 11]
     },
@@ -122,7 +122,7 @@ const ProductsPage = () => {
       price: 59.99,
       category: "casual",
       rating: 4.1,
-      image: "/Shose10.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/Shose10.jpg",
       colors: ["#8b4513", "#f5deb3", "#000000"],
       sizes: [6, 7, 8, 9, 10]
     },
@@ -132,7 +132,7 @@ const ProductsPage = () => {
       price: 94.99,
       category: "casual",
       rating: 4.4,
-      image: "/Shose11.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/Shose11.jpg",
       colors: ["#ffffff", "#ffc0cb", "#000000"],
       sizes: [5, 6, 7, 8, 9]
     },
@@ -142,7 +142,7 @@ const ProductsPage = () => {
       price: 249.99,
       category: "formal",
       rating: 4.9,
-      image: "/Shose12.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/Shose12.jpg",
       colors: ["#8b4513", "#000000"],
       sizes: [7, 8, 9, 10, 11]
     },
@@ -152,7 +152,7 @@ const ProductsPage = () => {
       price: 119.99,
       category: "athletic",
       rating: 4.7,
-      image: "/Shose13.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/Shose13.jpg",
       colors: ["#ff4500", "#4682b4", "#000000"],
       sizes: [7, 8, 9, 10, 11, 12]
     },
@@ -162,7 +162,7 @@ const ProductsPage = () => {
       price: 159.99,
       category: "casual",
       rating: 4.6,
-      image: "/Shose14.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/Shose14.jpeg",
       colors: ["#000000", "#8b4513"],
       sizes: [7, 8, 9, 10, 11]
     },
@@ -172,7 +172,7 @@ const ProductsPage = () => {
       price: 139.99,
       category: "outdoor",
       rating: 4.5,
-      image: "/Shose15.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/Shose15.jpeg",
       colors: ["#8b4513", "#f5deb3"],
       sizes: [8, 9, 10, 11, 12, 13]
     },
@@ -182,7 +182,7 @@ const ProductsPage = () => {
       price: 179.99,
       category: "formal",
       rating: 4.3,
-      image: "/Shose16.jpg",
+      image: "/images/Shose/Shose16.jpg",
       colors: ["#ff0000", "#000000", "#ffd700"],
       sizes: [5, 6, 7, 8, 9]
     },
@@ -192,7 +192,7 @@ const ProductsPage = () => {
       price: 74.99,
       category: "casual",
       rating: 4.4,
-      image: "/Shose17.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/Shose17.jpg",
       colors: ["#000000", "#1e90ff", "#ffffff"],
       sizes: [6, 7, 8, 9, 10, 11]
     },
@@ -202,7 +202,7 @@ const ProductsPage = () => {
       price: 149.99,
       category: "casual",
       rating: 4.7,
-      image: "/Shose18.jpg",
+      image: "/images/Shose/Shose/Shose18.jpg",
       colors: ["#000000", "#8b4513"],
       sizes: [6, 7, 8, 9, 10]
     },
@@ -212,7 +212,7 @@ const ProductsPage = () => {
       price: 89.99,
       category: "casual",
       rating: 4.2,
-      image: "/Shose19.jpg",
+      image: "/images/Shose/Shose/Shose19.jpg",
       colors: ["#800080", "#000080", "#8b0000"],
       sizes: [7, 8, 9, 10, 11]
     },
@@ -222,7 +222,7 @@ const ProductsPage = () => {
       price: 169.99,
       category: "athletic",
       rating: 4.8,
-      image: "/Shose20.jpg",
+      image: "/images/Shose/Shose/Shose20.jpg",
       colors: ["#ffffff", "#000000"],
       sizes: [8, 9, 10, 11, 12]
     },
@@ -232,7 +232,7 @@ const ProductsPage = () => {
       price: 69.99,
       category: "casual",
       rating: 4.5,
-      image: "/Shose21.jpg",
+      image: "/images/Shose/Shose/Shose21.jpg",
       colors: ["#000000", "#ffc0cb", "#add8e6"],
       sizes: [5, 6, 7, 8, 9]
     },
@@ -242,7 +242,7 @@ const ProductsPage = () => {
       price: 99.99,
       category: "outdoor",
       rating: 4.6,
-      image: "/Shose22.jpg",
+      image: "/images/Shose/Shose/Shose22.jpg",
       colors: ["#556b2f", "#8b4513", "#000000"],
       sizes: [7, 8, 9, 10, 11]
     },
@@ -252,7 +252,7 @@ const ProductsPage = () => {
       price: 179.99,
       category: "outdoor",
       rating: 4.9,
-      image: "/Shose23.jpg",
+      image: "/images/Shose/Shose/Shose23.jpg",
       colors: ["#000000", "#696969", "#ffffff"],
       sizes: [7, 8, 9, 10, 11, 12]
     },
@@ -262,7 +262,7 @@ const ProductsPage = () => {
       price: 129.99,
       category: "athletic",
       rating: 4.7,
-      image: "/Shose24.jpg",
+      image: "/images/Shose/Shose/Shose24.jpg",
       colors: ["#ff0000", "#ffffff", "#000000"],
       sizes: [8, 9, 10, 11, 12, 13]
     },
@@ -272,7 +272,7 @@ const ProductsPage = () => {
       price: 189.99,
       category: "formal",
       rating: 4.5,
-      image: "/Shose25.jpg",
+      image: "/images/Shose/Shose/Shose25.jpg",
       colors: ["#000000", "#8b0000"],
       sizes: [8, 9, 10, 11]
     },
@@ -282,7 +282,7 @@ const ProductsPage = () => {
       price: 119.99,
       category: "athletic",
       rating: 4.8,
-      image: "/Shose26.jpg",
+      image: "/images/Shose/Shose/Shose26.jpg",
       colors: ["#00bfff", "#ff4500", "#32cd32"],
       sizes: [7, 8, 9, 10, 11, 12]
     },
@@ -292,7 +292,7 @@ const ProductsPage = () => {
       price: 159.99,
       category: "formal",
       rating: 4.6,
-      image: "/Shose27.jpg",
+      image: "/images/Shose/Shose/Shose27.jpg",
       colors: ["#8b4513", "#000000"],
       sizes: [7, 8, 9, 10, 11]
     },
@@ -302,7 +302,7 @@ const ProductsPage = () => {
       price: 139.99,
       category: "casual",
       rating: 4.4,
-      image: "/Shose28.jpg",
+      image: "/images/Shose/Shose/Shose28.jpg",
       colors: ["#000000", "#8b4513", "#808080"],
       sizes: [5, 6, 7, 8, 9, 10]
     },
@@ -312,7 +312,7 @@ const ProductsPage = () => {
       price: 99.99,
       category: "athletic",
       rating: 4.5,
-      image: "/Shose29.jpg",
+      image: "/images/Shose/Shose/Shose29.jpg",
       colors: ["#000000", "#ff1493", "#00bfff"],
       sizes: [6, 7, 8, 9, 10, 11]
     },
@@ -322,7 +322,7 @@ const ProductsPage = () => {
       price: 229.99,
       category: "formal",
       rating: 4.9,
-      image: "/Shose30.jpg",
+      image: "/images/Shose/Shose/Shose30.jpg",
       colors: ["#8b4513", "#000000", "#a0522d"],
       sizes: [8, 9, 10, 11]
     }
@@ -522,7 +522,7 @@ const ProductsPage = () => {
         <div className="row g-4">
             <div className="col-md-4">
                 <div className="card h-100 shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://picsum.photos/400/300?men" className="card-img-top h-64 object-cover" alt="Men's Fashion" />
+                    <img src="/images/Shose/men-collection.jpg" className="card-img-top h-64 object-cover" alt="Men's Fashion" />
                     <div className="card-body p-6">
                         <h2 className="text-2xl font-bold mb-3">Men's Collection</h2>
                         <p className="text-gray-600 mb-4">
@@ -537,7 +537,7 @@ const ProductsPage = () => {
 
             <div className="col-md-4">
                 <div className="card h-100 shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://picsum.photos/400/300?women" className="card-img-top h-64 object-cover" alt="Women's Fashion" />
+                    <img src="/images/Shose/women-collection.jpg" className="card-img-top h-64 object-cover" alt="Women's Fashion" />
                     <div className="card-body p-6">
                         <h2 className="text-2xl font-bold mb-3">Women's Collection</h2>
                         <p className="text-gray-600 mb-4">
@@ -553,7 +553,7 @@ const ProductsPage = () => {
           
             <div className="col-md-4">
                 <div className="card h-100 shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://picsum.photos/400/300?kids" className="card-img-top h-64 object-cover" alt="Kids Fashion" />
+                    <img src="/images/Shose/kids-collection.jpg" className="card-img-top h-64 object-cover" alt="Kids Fashion" />
                     <div className="card-body p-6">
                         <h2 className="text-2xl font-bold mb-3">Kids' Collection</h2>
                         <p className="text-gray-600 mb-4">

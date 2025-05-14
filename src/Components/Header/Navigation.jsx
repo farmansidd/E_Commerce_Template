@@ -1,12 +1,18 @@
 import React from 'react';
 import { useCart } from '../../Context/CartContext';
-import { NavLink } from 'react-router-dom';
+import { NavLink  , useNavigate} from 'react-router-dom';
 import './Navigation.css';
 import { useState } from 'react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { totalItems } = useCart();
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    // Perform logout logic here
+    console.log('User logged out');
+    navigate('/Authantication/Login'); // Redirect to login page after logout
+  };
 
   return (
     <nav className="navigation">
@@ -73,7 +79,7 @@ const Navigation = () => {
           </NavLink>
         </div>
         <div className="login-btn">
-          <button>Login</button>
+          <button onClick={handleLogout}>Login</button>
         </div>
       </div>
     </nav>

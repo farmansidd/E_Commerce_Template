@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+
 
 const WomenSection = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -15,7 +15,7 @@ const WomenSection = () => {
       price: 129.99,
       category: "heels",
       rating: 4.8,
-      image: "/images/women/heel1.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/heel1.jpg",
       colors: ["#000000", "#8B0000", "#F5F5DC"],
       sizes: [5, 6, 7, 8, 9],
       featured: true
@@ -26,7 +26,7 @@ const WomenSection = () => {
       price: 79.99,
       category: "flats",
       rating: 4.6,
-      image: "/images/women/flat1.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/flat1.jpg",
       colors: ["#000000", "#F5F5DC", "#8B4513"],
       sizes: [5, 6, 7, 8, 9, 10]
     },
@@ -36,7 +36,7 @@ const WomenSection = () => {
       price: 149.99,
       category: "boots",
       rating: 4.9,
-      image: "/images/women/boot1.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/boot1.jpg",
       colors: ["#8B4513", "#000000", "#696969"],
       sizes: [6, 7, 8, 9]
     },
@@ -46,7 +46,7 @@ const WomenSection = () => {
       price: 69.99,
       category: "sneakers",
       rating: 4.5,
-      image: "/images/women/sneaker1.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/sneaker1.jpg",
       colors: ["#FFFFFF", "#000000", "#FF69B4"],
       sizes: [5, 6, 7, 8, 9, 10]
     },
@@ -56,7 +56,7 @@ const WomenSection = () => {
       price: 89.99,
       category: "sandals",
       rating: 4.7,
-      image: "/images/women/sandal1.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/sandal1.jpg",
       colors: ["#F5F5DC", "#8B4513", "#000000"],
       sizes: [5, 6, 7, 8, 9]
     },
@@ -66,7 +66,7 @@ const WomenSection = () => {
       price: 119.99,
       category: "heels",
       rating: 4.6,
-      image: "/images/women/heel2.jpg",
+      image: process.env.PUBLIC_URL + "/images/Shose/heel2.jpg",
       colors: ["#000000", "#FF0000", "#F5F5DC"],
       sizes: [6, 7, 8, 9]
     }
@@ -82,7 +82,7 @@ const WomenSection = () => {
       {/* Hero Section */}
       <div className="relative h-96 w-full bg-gray-800 flex justify-center items-center overflow-hidden">
         <img 
-          src="/images/banners/women-banner.jpg" 
+          src={process.env.PUBLIC_URL + "/images/banners/women-banner.jpg"} 
           alt="Women's Footwear Collection" 
           className="absolute inset-0 w-full h-full object-cover opacity-75"
         />
@@ -204,8 +204,8 @@ const WomenSection = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="relative h-96 rounded-lg overflow-hidden group">
-              <img 
-                src="/images/women/featured1.jpg" 
+                <img 
+                src={process.env.PUBLIC_URL + "/images/Shose/featured1.jpg"} 
                 alt="Elegant Heels Collection" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -219,8 +219,8 @@ const WomenSection = () => {
             </div>
             
             <div className="relative h-96 rounded-lg overflow-hidden group">
-              <img 
-                src="/images/women/featured2.jpg" 
+                <img 
+                src={process.env.PUBLIC_URL + "/images/Shose/featured2.jpg"} 
                 alt="Casual Comfort Collection" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />

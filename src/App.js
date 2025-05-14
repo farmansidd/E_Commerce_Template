@@ -13,6 +13,7 @@ import WomenSection from './Components/Product/WomenSection';
 import KidsSection from './Components/Product/KidSection';
 import { KidsContextProvider } from './Context/KidsContext';
 import Cart from './Components/AddToCart/Cart'; 
+import Login from './Components/Authantication/Login';
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: "cart",
         element: <Cart />,
+      },
+      {
+        path: "Authantication/Login",
+        element: <Login />,
       }
     ],
   },
