@@ -1,27 +1,30 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
+import Mancard from '../../assets/banners/grid-three-1.png';
+import Womencard from '../../assets/banners/grid-three-2.png';
+import Kidcard from '../../assets/banners/grid-three-3.png';
 
 function MidSec() {
     const navigate = useNavigate();
 
     return (
         <MidSecWrapper>
-            <SectionCard bg="url('/grid-three-1 (1).png')" onClick={() => navigate('/products/men')}>
+            <SectionCard bg={`url(${Mancard})`} onClick={() => navigate('/products/men')}>
                 <div className="content">
                     <h3>TRENDING</h3>
                     <h1>Men  <br />Collections</h1>
                     <p>SHOP NOW</p>
                 </div>
             </SectionCard>
-            <SectionCard bg="url('/grid-three-2.png')" onClick={() => navigate('/products/women')}>
+            <SectionCard bg={`url(${Womencard})`} onClick={() => navigate('/products/women')}>
                 <div className="content">
                     <h3>LATEST</h3>
                     <h1>Women<br />Collections</h1>
                     <p>SHOP NOW</p>
                 </div>
             </SectionCard>
-            <SectionCard bg="url('/grid-three-3.png')" onClick={() => navigate('/products/kids')}>
+            <SectionCard bg={`url(${Kidcard})`} onClick={() => navigate('/products/kids')}>
                 <div className="content">
                     <h3>COMFORT</h3>
                     <h1>Kid<br />Collections</h1>

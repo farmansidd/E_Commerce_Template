@@ -1,5 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import BgImg from '../../assets/banners/women-banner.jpg'
+import Shose1 from '../../assets/Shose/Shose1.png'
+import Shose2 from '../../assets/Shose/Shose2.jpg'
+import Shose3 from '../../assets/Shose/Shose3.png'
+import Shose4 from '../../assets/Shose/Shose4.png'
 
 const HeroLastSection = styled.div`
   padding: 80px 0;
@@ -237,7 +242,7 @@ const HeroFeatureSection = styled.div`
   display: flex;
   align-items: center;
   padding: 80px 0;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('/BgImg.jpg');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(${BgImg});
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -344,7 +349,7 @@ function HeroLast() {
               <PriceTag>SALE!</PriceTag>
               <ImageContainer>
                 <QuickViewButton>Quick View</QuickViewButton>
-                <img src="/Shose1.jpg" alt="Hiking Shoes" />
+                <img src={Shose1} alt="Hiking Shoes" />
               </ImageContainer>
               
               <ColorSwatches>
@@ -370,7 +375,7 @@ function HeroLast() {
               <PriceTag>SALE!</PriceTag>
               <ImageContainer>
                 <QuickViewButton>Quick View</QuickViewButton>
-                <img src="/Shose2.jpg" alt="Running Shoes" />
+                <img src={Shose2} alt="Running Shoes" />
               </ImageContainer>
               
               <ColorSwatches>
@@ -396,7 +401,7 @@ function HeroLast() {
               <PriceTag>SALE!</PriceTag>
               <ImageContainer>
                 <QuickViewButton>Quick View</QuickViewButton>
-                <img src="/Shose3.jpg" alt="Athletic Shoes" />
+                <img src={Shose3} alt="Athletic Shoes" />
               </ImageContainer>
               
               <ColorSwatches>
@@ -422,7 +427,7 @@ function HeroLast() {
               <PriceTag>SALE!</PriceTag>
               <ImageContainer>
                 <QuickViewButton>Quick View</QuickViewButton>
-                <img src="/Shose4.jpg" alt="Casual Shoes" />
+                <img src={Shose4} alt="Casual Shoes" />
               </ImageContainer>
               
               <ColorSwatches>

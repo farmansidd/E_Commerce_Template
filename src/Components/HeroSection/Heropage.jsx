@@ -1,5 +1,8 @@
 import React from 'react'
 import './Heropage.css'
+import Flipkar from '../../assets/images/Logo/Flipkar.jpeg';
+import Amazon from '../../assets/images/Logo/Amazon.jpg';
+import Shose from '../../assets/images/Logo/Shose.png';
 
 function Heropage() {
     return (
@@ -20,14 +23,14 @@ function Heropage() {
                     <div className="availability">
                         <p>Also Available On</p>
                         <div className="stores">
-                            <img src="Flipkar.jpeg" alt="Flipkart" />
-                            <img src="/Amazon.jpg" alt="Amazon" />
+                            <img src={Flipkar} alt="Flipkart" />
+                            <img src={Amazon} alt="Amazon" />
                            
                         </div>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="/Shose.png" alt="Premium Shoes" />
+                    <img src={Shose} alt="Premium Shoes" />
                 </div>
             </div>
         </>

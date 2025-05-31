@@ -3,6 +3,7 @@ import { useCart } from '../../Context/CartContext';
 import { NavLink  , useNavigate} from 'react-router-dom';
 import './Navigation.css';
 import { useState } from 'react';
+import logo from '../../assets/images/Logo/logo.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,12 +18,12 @@ const Navigation = () => {
   return (
     <nav className="navigation">
       <div className="logo">
-        <img src="/logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
       
       {/* Hamburger Menu */}
       <button 
-        className="md:hidden p-2"
+        className="mobile-menu-toggle md:hidden p-2"
         onClick={() => setIsOpen(!isOpen)}
       >
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -31,7 +32,7 @@ const Navigation = () => {
       </button>
 
       {/* Navigation Items */}
-      <div className={`nav-items ${isOpen ? 'block' : 'hidden'} md:block`}>
+      <div className={`nav-items ${isOpen ? 'active' : ''} md:block`}>
         <ul>
           <li className="nav-item">
             <NavLink 
